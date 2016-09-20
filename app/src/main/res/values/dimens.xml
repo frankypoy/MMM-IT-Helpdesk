@@ -8,4 +8,7 @@
 
     <dimen name="tit">20sp</dimen>
     <dimen name="des">15sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="titdetail">30sp</dimen>
+    <dimen name="desdetail">22sp</dimen>
 </resources>
