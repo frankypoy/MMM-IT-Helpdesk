@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:text="Log In"
             android:id="@+id/button"
-            android:background="#7ea862"
+            android:background="@color/colorAccent"
             android:textColor="#ffffff"
             android:onClick="clickSignIn" />
     </LinearLayout>
