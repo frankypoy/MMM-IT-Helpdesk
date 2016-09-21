@@ -149,7 +149,7 @@
     </LinearLayout>
 
     <Button
-        android:text="อัพเดทข้อมูล"
+        android:text="เริ่มทำงานนี้"
         android:layout_width="191dp"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
