@@ -17,11 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ServiceActivity" />
-        <activity android:name=".DetailActivity" />
+        <activity android:name=".NewServiceActivity" />
+        <activity android:name=".NewDetailActivity" />
         <activity android:name=".TabMActivity" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".AboutActivity" />
+        <activity android:name=".DoingServiceActivity"></activity>
     </application>
 
 </manifest>
