@@ -1,91 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- Subject Label -->
+
+    <!-- To email -->
+
+    <!-- To email -->
+
+    <!-- Mail date -->
 
     <TextView
-        android:layout_width="match_parent"
+        android:text="TextView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
         android:id="@+id/textView4"
-        android:textSize="@dimen/tit"
         android:textStyle="bold"
-        android:allowUndo="false"
-        android:layout_margin="6dp" />
+        android:textSize="@dimen/tit" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <TextView
+        android:text="วันที่ : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_marginRight="4dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/des" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="วันที่ : "
-            android:id="@+id/textView5"
-            android:textStyle="bold"
-            android:textSize="@dimen/des"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginRight="2dp" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="42dp"
+        android:textSize="@dimen/des" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Text"
-            android:id="@+id/textView6"
-            android:layout_marginTop="4dp"
-            android:textSize="@dimen/des" />
-    </LinearLayout>
+    <TextView
+        android:text="แผนก : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView6"
+        android:textStyle="bold"
+        android:textSize="@dimen/des" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="55dp"
+        android:textSize="@dimen/des" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="แผนก : "
-            android:id="@+id/textView7"
-            android:layout_marginTop="4dp"
-            android:layout_marginRight="4dp"
-            android:layout_marginLeft="6dp"
-            android:textStyle="bold"
-            android:textSize="@dimen/des" />
+    <TextView
+        android:text="สถานะ : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:textStyle="bold"
+        android:textSize="@dimen/des" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Text"
-            android:id="@+id/textView8"
-            android:layout_marginTop="4dp"
-            android:textSize="@dimen/des" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="สถานะ : "
-            android:id="@+id/textView9"
-            android:textSize="@dimen/des"
-            android:textStyle="bold"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginRight="4dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Text"
-            android:id="@+id/textView10"
-            android:textSize="@dimen/des"
-            android:layout_marginTop="4dp" />
-    </LinearLayout>
-
-</LinearLayout>
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView8"
+        android:layout_marginLeft="60dp"
+        android:textSize="@dimen/des" />
+</RelativeLayout>

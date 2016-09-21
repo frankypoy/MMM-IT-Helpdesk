@@ -2,4 +2,6 @@
     <string name="app_name">IT Helpdesk</string>
     <string name="title_activity_detail_service">DetailServiceActivity</string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_tab1">Tab1Activity</string>
 </resources>

@@ -19,6 +19,9 @@
         </activity>
         <activity android:name=".ServiceActivity" />
         <activity android:name=".DetailActivity" />
+        <activity android:name=".TabMActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".AboutActivity" />
     </application>
 
 </manifest>
