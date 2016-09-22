@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg4">
@@ -158,6 +159,8 @@
         android:textColor="@android:color/background_light"
         android:textSize="14sp"
         android:layout_marginTop="20dp"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        tools:onClick="updateJob"
+        android:onClick="updateNewService" />
 
 </LinearLayout>
