@@ -161,6 +161,7 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
         tools:onClick="updateJob"
+        android:visibility="invisible"
         android:onClick="updateNewService" />
 
 </LinearLayout>
