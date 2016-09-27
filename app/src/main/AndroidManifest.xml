@@ -20,9 +20,10 @@
         <activity android:name=".NewServiceActivity" />
         <activity android:name=".NewDetailActivity" />
         <activity android:name=".TabMActivity" />
-        <activity android:name=".HomeActivity" />
         <activity android:name=".DoingServiceActivity" />
-        <activity android:name=".DoingDetailActivity"></activity>
+        <activity android:name=".DoingDetailActivity" />
+        <activity android:name=".DoneServiceActivity" />
+        <activity android:name=".DoneDetailActivity"></activity>
     </application>
 
 </manifest>

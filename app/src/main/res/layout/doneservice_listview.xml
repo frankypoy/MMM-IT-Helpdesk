@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView39"
+        android:textStyle="bold"
+        android:textSize="@dimen/tit" />
+
+    <TextView
+        android:text="วันที่ : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView40"
+        android:layout_below="@+id/textView39"
+        android:layout_marginRight="4dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/des" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/textView39"
+        android:layout_marginLeft="42dp"
+        android:textSize="@dimen/des" />
+
+    <TextView
+        android:text="แผนก : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView42"
+        android:layout_below="@+id/textView40"
+        android:textStyle="bold"
+        android:textSize="@dimen/des" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView43"
+        android:layout_below="@+id/textView40"
+        android:layout_marginLeft="55dp"
+        android:textSize="@dimen/des" />
+
+    <TextView
+        android:text="สถานะ : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView44"
+        android:layout_below="@+id/textView42"
+        android:textStyle="bold"
+        android:textSize="@dimen/des" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView45"
+        android:layout_below="@+id/textView42"
+        android:layout_marginLeft="60dp"
+        android:textSize="@dimen/des" />
+</RelativeLayout>
